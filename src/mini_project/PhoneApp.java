@@ -101,7 +101,13 @@ public class PhoneApp {
 				break;
 			case 5:
 				System.out.println("시스템을 종료합니다.");
+				sc.close();
+				sc2.close();
+				sc3.close();
+				sc4.close();
+				br.close();
 				System.exit(0);
+				
 				break;
 
 			default:
@@ -110,7 +116,6 @@ public class PhoneApp {
 
 			}
 
-			br.close();
 		}
 	}
 }
