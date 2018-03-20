@@ -36,9 +36,9 @@ public class PhoneApp {
 
 		}
 
-		System.out.println("==================================");
-		System.out.println("****    전 화 번 호 관 리 프 로 그 램            ****");
-		System.out.println("==================================");
+		System.out.println("===================================");
+		System.out.println("****  전 화 번 호 관 리 프 로 그 램  ****");
+		System.out.println("===================================");
 		while (true) {
 
 			System.out.println("1.리스트  2.등록  3.삭제  4.검색  5.종료  ");
