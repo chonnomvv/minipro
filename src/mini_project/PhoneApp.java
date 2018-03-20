@@ -100,7 +100,9 @@ public class PhoneApp {
 				}
 				break;
 			case 5:
-				System.out.println("시스템을 종료합니다.");
+				System.out.println("==================");
+				System.out.println("**시스템을 종료합니다.**");
+				System.out.println("==================");
 				sc.close();
 				sc2.close();
 				sc3.close();
